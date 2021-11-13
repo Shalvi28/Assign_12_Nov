@@ -1,0 +1,49 @@
+body{
+    background-color: grey;
+    margin: 60px auto;
+
+}
+#c1{
+  text-align: center;
+  color: wheat;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+#tab {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 18%;
+  }
+  
+  #tab td, #tab th {
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 80%;
+    border-width: 5px;
+    color: yellow;
+    border-style:groove;
+    font-weight: bolder;
+  }
+  
+  #tab tr:nth-child(odd){background-color: brown;}
+  
+  #tab tr:hover {background-color: teal;}
+
+
+  
+  #tab th {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+  }
+  #tab td{
+      text-align: center;
+  }
+  .image{
+      height: 90px;
+      width: 200px;
+  }
+  
